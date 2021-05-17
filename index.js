@@ -13,7 +13,7 @@ function keepGoing(array, changeValue, skipValue) {
     if (array[i] === skipValue) {
       continue
     }
-      hello = array + i
-      return hello
+      array = changeValue
+      return array
   }
 }
