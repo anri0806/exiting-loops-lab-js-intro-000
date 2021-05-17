@@ -24,3 +24,4 @@ function findBy(array, findFn) {
      return array[i]
   }
 }
+}
