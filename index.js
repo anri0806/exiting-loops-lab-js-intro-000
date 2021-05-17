@@ -3,9 +3,9 @@ function breakOut(array, changeValue, stopValue) {
    array[i] = changeValue;
    if (array[i] !== stopValue) {
     break
-     return array[i]
   }
   }
+    return array
 }
 
 function keepGoing(array, changeValue, skipValue) {
