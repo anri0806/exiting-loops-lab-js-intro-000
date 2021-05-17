@@ -10,10 +10,10 @@ function breakOut(array, changeValue, stopValue) {
 
 function keepGoing(array, changeValue, skipValue) {
   for (let i = 0; i < array.length; i++) {
+   array[i] = changeValue
     if (array[i] === skipValue) {
       continue
     }
-      array[i] = changeValue
       return array
   }
 }
