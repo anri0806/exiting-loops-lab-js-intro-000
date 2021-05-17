@@ -15,6 +15,6 @@ function keepGoing(array, changeValue, skipValue) {
       continue
     }
       hello = array + i
-      return array
+      return hello
   }
 }
