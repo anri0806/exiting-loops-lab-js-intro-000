@@ -14,6 +14,6 @@ function keepGoing(array, changeValue, skipValue) {
     if (array[i] === skipValue) {
       continue
     }
-       return array
+       console,log(array)
   }
 }
